@@ -30,11 +30,7 @@
 
 ---
 
-## 🚀 **Getting Started**  
-### 🔽 Clone this repo  
-```bash
-git clone https://github.com/your-username/rock-paper-scissors.git
-```
+
 ### ▶ Run the Game  
 1️⃣ Open `index.html` in a browser 🌍  
 2️⃣ Have fun playing! 🎉  
