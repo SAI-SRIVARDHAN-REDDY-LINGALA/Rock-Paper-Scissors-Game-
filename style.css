@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  background-color: #310808; /* Background color for the game title */
+  color: #fff; /* Text color for the game title */
+  height: 5rem;
+  line-height: 5rem;
+}
+
+.choice {
+  height: 165px;
+  width: 165px;
+  border-radius: 50%; /* Making the choices round */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.choice:hover {
+  cursor: pointer; /* Changing cursor to pointer on hover */
+  background-color: #081b31; /* Darkening background color on hover */
+}
+
+img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%; /* Ensuring images are round */
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem; /* Gap between choice buttons */
+  margin-top: 5rem; /* Top margin for choices section */
+}
+
+.score-board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  margin-top: 3rem; /* Top margin for score board */
+  gap: 5rem; /* Gap between scores */
+}
+
+#user-score,
+#comp-score {
+  font-size: 4rem; /* Font size for scores */
+}
+
+.msg-container {
+  margin-top: 5rem; /* Top margin for message container */
+}
+
+#msg {
+  background-color: #081b31; /* Background color for messages */
+  color: #fff; /* Text color for messages */
+  font-size: 2rem; /* Font size for messages */
+  display: inline; /* Display messages inline */
+  padding: 1rem; /* Padding around messages */
+  border-radius: 1rem; /* Rounded corners for message box */
+}

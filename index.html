@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rock Paper Scissors Game</title>
+  <link rel="stylesheet" href="style.css" /> <!-- Linking to external stylesheet -->
+</head>
+<body>
+  <h1>Rock Paper Scissors</h1> <!-- Game title -->
+  
+  <!-- Choices section with images for rock, paper, and scissors -->
+  <div class="choices">
+    <div class="choice" id="rock">
+      <img src="./images/rock.png" />
+    </div>
+    <div class="choice" id="paper">
+      <img src="./images/paper.png" />
+    </div>
+    <div class="choice" id="scissors">
+      <img src="./images/scissors.png" />
+    </div>
+  </div>
+
+  <!-- Score board section -->
+  <div class="score-board">
+    <div class="score">
+      <p id="user-score">0</p> <!-- Display user's score -->
+      <p>You</p> <!-- Label for user's score -->
+    </div>
+    <div class="score">
+      <p id="comp-score">0</p> <!-- Display computer's score -->
+      <p>Comp</p> <!-- Label for computer's score -->
+    </div>
+  </div>
+
+  <!-- Message container for game messages -->
+  <div class="msg-container">
+    <p id="msg">Play your move</p> <!-- Initial game message -->
+  </div>
+
+  <script src="script.js"></script> <!-- Linking to external JavaScript file -->
+</body>
+</html>
